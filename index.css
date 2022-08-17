@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0;
+    min-height: 90vh;
 
 }
 
@@ -152,13 +153,16 @@ h1 {
         display: none;
     }
 
-   
+   .wrapper {
+
+    min-height: 100vh;
+   }
 
     .container {
 
             width: 1440px;
             display: flex;
-            margin-top: 5rem;
+            
     }
 
     
